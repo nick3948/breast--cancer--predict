@@ -59,7 +59,7 @@ def start(request):
             print('mail sent')
             return render(request,'just.html',{'c':per})
         else:
-            per.s="we are very sorry to sat that"
+            per.s="we are very sorry to say that"
             per.anss="POSITIVE"
             ctx = {
                     'user': per.x,
