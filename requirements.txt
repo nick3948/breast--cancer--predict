@@ -10,7 +10,7 @@ jmespath==0.10.0
 joblib==0.15.1
 numpy==1.18.5
 pickle-mixin==1.0.2
-Pillow==7.1.2
+Pillow==9.0.1
 psycopg2==2.8.5
 python-dateutil==2.8.1
 pytz==2020.1
