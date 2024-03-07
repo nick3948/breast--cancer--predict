@@ -1,0 +1,15 @@
+{
+  "builds": [
+    {
+      "src": "cancer/wsgi.py",
+      "use": "@cancer/python",
+      "config": { "maxLambdaSize": "15mb" }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "cancer/wsgi.py"
+    }
+  ]
+}
