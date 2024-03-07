@@ -14,7 +14,7 @@ SECRET_KEY = 'ox9zmcd+)sdexjie_a_vi%^1h#@s*1c9fhf33!i0q#g%h1i5g('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['breast--cancer--predictor.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1','vercel.app']
 
 
 # Application definition
