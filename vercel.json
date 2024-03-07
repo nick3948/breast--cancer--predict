@@ -2,7 +2,7 @@
   "builds": [
     {
       "src": "cancer/wsgi.py",
-      "use": "@cancer/python",
+      "use": "@ardnt/vercel-python-wsgi",
       "config": { "maxLambdaSize": "15mb" }
     }
   ],
