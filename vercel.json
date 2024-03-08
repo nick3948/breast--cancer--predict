@@ -11,10 +11,5 @@
       "src": "/(.*)",
       "dest": "cancer/wsgi.py"
     }
-  ],
-  "functions": {
-    "main": {
-      "runtime": "python3.9"
-    }
-  }
+  ]
 }
