@@ -1,0 +1,45 @@
+# .vercelignore
+
+# Ignore development and system files
+
+_.pyc
+_.pyo
+\*.pyd
+**pycache**
+
+# Ignore version control files
+
+.git
+.gitignore
+.svn
+.CVS
+
+# Ignore IDE and editor-specific files
+
+.vscode
+.idea
+_.sublime-project
+_.sublime-workspace
+
+# Ignore test and documentation files
+
+tests/
+docs/
+
+# Ignore database files
+
+db.sqlite3
+
+# Ignore local configuration files
+
+_.local
+_.ini
+_.env
+_.conf
+
+# Ignore migration files if they are included in version control
+
+/migrations/_.py
+/migrations/_.pyc
+
+# Ignore any other files not needed for deployment
