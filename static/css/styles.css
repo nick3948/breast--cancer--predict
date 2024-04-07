@@ -3,12 +3,12 @@ body {
 }
 
 #title {
-  background-image: url('https://s3.amazonaws.com/noupe/2009/10/pattern-07.jpg');
+  background-image: url("https://s3.amazonaws.com/noupe/2009/10/pattern-07.jpg");
   color: #fff;
 }
 
 #title3 {
-  background-image: url('https://wallpaperaccess.com/full/1567784.jpg');
+  background-image: url("https://wallpaperaccess.com/full/1567784.jpg");
   color: #fff;
   margin: 5%;
 }
@@ -32,7 +32,7 @@ h3 {
 }
 
 .par {
-  font-family: 'Bellota', cursive;
+  font-family: "Bellota", cursive;
   font-size: 1.5rem;
   margin-left: -1%;
   padding-top: 1%;
@@ -42,7 +42,6 @@ h3 {
 .container-fluid {
   padding: 3% 15% 10%;
 }
-
 
 .icon1 {
   color: #ef8172;
@@ -71,7 +70,6 @@ h3 {
   margin-right: 20px;
 }
 
-
 .im {
   width: 15%;
   margin: 20px;
@@ -83,7 +81,6 @@ h3 {
   position: relative;
 }
 
-
 .p-col {
   padding: 3% 2%;
 }
@@ -91,7 +88,7 @@ h3 {
 #testimonials {
   padding: 7% 20%;
   text-align: center;
-  background-image: url('https://wallpaperaccess.com/full/1567784.jpg');
+  background-image: url("https://wallpaperaccess.com/full/1567784.jpg");
   color: #fff;
 }
 
@@ -118,7 +115,7 @@ h3 {
 #footer {
   padding: 1.5% 15%;
   text-align: center;
-  background-image: url('https://wallpaperaccess.com/full/733906.jpg');
+  background-image: url("https://wallpaperaccess.com/full/733906.jpg");
   color: white;
 }
 
@@ -137,8 +134,8 @@ h3 {
   margin-top: 1.25rem;
   padding: 1.25rem;
   border: 1px solid #eee;
-  border-left-width: .25rem;
-  border-radius: .25rem;
+  border-left-width: 0.25rem;
+  border-radius: 0.25rem;
   box-sizing: border-box;
   border-left-color: rgb(96, 162, 202);
   border-bottom-color: rgb(96, 162, 202);
@@ -146,10 +143,9 @@ h3 {
   border-right-color: rgb(96, 162, 202);
 }
 
-
 /* sec page */
 #title1 {
-  background-image: url('https://i0.wp.com/www.marktechpost.com/wp-content/uploads/2018/07/4k-wallpaper-android-wallpaper-astro-1146134.jpg?fit=2048%2C1152&ssl=1');
+  background-image: url("https://i0.wp.com/www.marktechpost.com/wp-content/uploads/2018/07/4k-wallpaper-android-wallpaper-astro-1146134.jpg?fit=2048%2C1152&ssl=1");
   color: #fff;
 }
 
@@ -168,7 +164,7 @@ h3 {
   padding-left: 20%;
 }
 
-.sec2{
+.sec2 {
   text-align: left;
   padding: 3%;
   padding-top: 6%;
@@ -177,24 +173,21 @@ h3 {
 
 .aa {
   width: 3%;
-  padding: .5%;
+  padding: 0.5%;
 }
 
 .inf {
   width: 4%;
 }
 
-.rob-text{
+.rob-text {
   opacity: 0.8;
 }
 
-.reset{
+.reset {
   margin-bottom: 10px;
   margin-right: 60px;
 }
-
-
-
 
 /* about page */
 .top {
@@ -206,11 +199,11 @@ h3 {
 }
 
 #title2 {
-  background-image: url('https://leahmerylharmon.com/wp-content/uploads/2012/02/Unknown-4.jpeg');
+  background-color: black;
 }
 
 .par1 {
-  font-family: 'Bellota', cursive;
+  font-family: "Bellota", cursive;
   font-size: 1.5rem;
   margin-left: -1%;
   color: #fff;
@@ -238,4 +231,3 @@ hr {
   width: 50%;
   height: 30px;
 }
-

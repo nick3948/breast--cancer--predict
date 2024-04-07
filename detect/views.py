@@ -51,7 +51,7 @@ def start(request):
             msg = EmailMessage(
                 'Cancer Prediction',
                 message,
-                'breast.cancer.predict@gmail.com',
+                'starkyou2024@gmail.com',
                 [per.em],
             )
             msg.content_subtype = "html"  # Main content is now text/html
@@ -74,7 +74,7 @@ def start(request):
             msg = EmailMessage(
                 'Cancer Prediction',
                 message,
-                'breast.cancer.predict@gmail.com',
+                'starkyou2024@gmail.com',
                 [per.em],
             )
             msg.content_subtype = "html"  # Main content is now text/html
