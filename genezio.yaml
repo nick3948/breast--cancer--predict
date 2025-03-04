@@ -8,7 +8,7 @@ backend:
     language:
         name: python
         packageManager: pip
-        runtime: python3.13.x
+        runtime: python3.11.x
     path: .
 name: breast--cancer--predict
 region: us-east-1
