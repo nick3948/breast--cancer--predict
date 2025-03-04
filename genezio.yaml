@@ -1,0 +1,15 @@
+backend:
+    functions:
+        - entry: cancer/asgi.py
+          handler: application
+          name: django
+          path: .
+          type: httpServer
+    language:
+        name: python
+        packageManager: pip
+        runtime: python3.13.x
+    path: .
+name: breast--cancer--predict
+region: us-east-1
+yamlVersion: 2
