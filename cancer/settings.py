@@ -14,7 +14,7 @@ SECRET_KEY = 'ox9zmcd+)sdexjie_a_vi%^1h#@s*1c9fhf33!i0q#g%h1i5g('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','vercel.app']
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
@@ -117,6 +117,6 @@ STATIC_ROOT=os.path.join(BASE_DIR,'assets')
 
 EMAIL_HOST='smtp.gmail.com'
 EMAIL_PORT=587
-EMAIL_HOST_USER='starkyou2024@gmail.com'
-EMAIL_HOST_PASSWORD='advc shoh ynvj aekj'
+EMAIL_HOST_USER='osufrds@gmail.com'
+EMAIL_HOST_PASSWORD='wtyc ujqx ublb zsuz'
 EMAIL_USE_TLS=True

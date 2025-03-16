@@ -51,7 +51,7 @@ def start(request):
             msg = EmailMessage(
                 'Cancer Prediction',
                 message,
-                'starkyou2024@gmail.com',
+                'osufrds@gmail.com',
                 [per.em],
             )
             msg.content_subtype = "html"  # Main content is now text/html
@@ -68,13 +68,12 @@ def start(request):
                     'emaill':per.em,
                     'ans':"POSITIVE",
                     'status':"we are very sorry to say that"
-                    
                 }
             message = get_template('gmail.html').render(ctx)
             msg = EmailMessage(
                 'Cancer Prediction',
                 message,
-                'starkyou2024@gmail.com',
+                'osufrds@gmail.com',
                 [per.em],
             )
             msg.content_subtype = "html"  # Main content is now text/html
